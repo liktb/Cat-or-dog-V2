@@ -35,7 +35,7 @@ model.to(device)
 
 # Load the saved model
 model_save_path = Path('dogs_vs_cats_model.pth')
-model.load_state_dict(torch.load(model_save_path))
+model.load_state_dict(torch.load(model_save_path, map_location=device))
 model.eval()
 
 # Function to evaluate the model on a single image
