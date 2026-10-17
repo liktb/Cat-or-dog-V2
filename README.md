@@ -30,6 +30,7 @@ Evaluated on 4,653 unseen test images:
 |-------|-----------|--------|
 | correct | 2394 | 2472 |
 | wrong | 106 | 28 |
+
 **Interpretation:**
 - 2,394 cats correctly identified as cats
 - 2,472 dogs correctly identified as dogs
